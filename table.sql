@@ -1,7 +1,7 @@
-DROP TABLE TouristicSite;
-DROP TABLE Hotel;
-DROP TABLE Distance;
-DROP TABLE Textuel;
+DROP TABLE IF EXISTS TouristicSite;
+DROP TABLE IF EXISTS Hotel;
+DROP TABLE IF EXISTS Distance;
+DROP TABLE IF EXISTS Textuel;
 
 CREATE TABLE TouristicSite
 (
